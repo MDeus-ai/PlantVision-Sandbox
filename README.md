@@ -1,4 +1,4 @@
-<p align="center">
+<!-- <p align="center">
   <img src="logo/logo.png" alt="PlantVision Banner" style="max-height: 450px; width: 100%; height: auto;" />
 </p>
 
@@ -57,4 +57,4 @@
   Modular design allows easy customization and extension for additional plant species or diseases.
 
 ---
-
+ -->
