@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+data/
+outputs/
+mlruns/
+*.pt
+*.onnx
+*.tflite
+.env
+venv/
