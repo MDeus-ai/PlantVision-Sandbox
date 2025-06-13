@@ -8,3 +8,5 @@ mlruns/
 *.tflite
 .env
 venv/
+*.ipynb_checkpoints
+*.csv
