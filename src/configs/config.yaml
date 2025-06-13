@@ -1,5 +1,5 @@
 data:
-  train_dir: data/processed # training data directory
+  train_dir: datasets/processed # training data directory
   # val_dir: data 
   batch_size: 200 # Batch size for the dataloaders
   img_size: 224 # Image size to be fed into the model
