@@ -13,7 +13,7 @@ def load_config(config_path="src/configs/config.yaml"):
 config = load_config()
 train_path = Path(config['data']['train_dir'])
 batch_size = config['data']['batch_size']
-num_workers = config['data']['num_workers']
+num_workers = config['data']['loader_num_workers']
 
 
 # Check the dataset folder and retrive the images from their respective folders ...
