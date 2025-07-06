@@ -6,5 +6,5 @@ data:
   loader_num_workers: 1 # Number of cpu cores to use for dataloaders
 
 train:
-  num_epochs: 10 # number of training epochs
+  num_epochs: 50 # number of training epochs
   learning_rate: 0.001 # model learning rate

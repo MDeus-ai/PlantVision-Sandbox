@@ -2,7 +2,7 @@ import yaml
 import tqdm
 import torch
 import torch.nn as nn
-from models.model_1 import MLP
+from models.model_one import Cnn_model_one
 from  data.loader import train_dataloader
 
 
@@ -19,7 +19,7 @@ learning_rate = config['train']['learning_rate']
 if __name__ == "__main__":    
 
     # Model Instance
-    model = MLP()   
+    model = Cnn_model_one()
 
     # Loss function and the optimizer
     criterion = nn.CrossEntropyLoss()
